@@ -446,7 +446,7 @@ window.onload = () => {
                 }
             }
         },
-        plugins: [evolutionPlugin]  // <- Ajoutez juste cette ligne
+        plugins: [evolutionPlugin] 
     });
 
     // Répartition par âge - Graphique en donut 2020
@@ -472,7 +472,7 @@ window.onload = () => {
                 }
             }
         },
-        plugins: [emojiPluginAge]  // <- Ajoutez juste cette ligne
+        plugins: [emojiPluginAge]
     });
 
     // Répartition par âge - Graphique en donut 2009
@@ -498,7 +498,7 @@ window.onload = () => {
                 }
             }
         },
-        plugins: [emojiPluginAge]  // <- Ajoutez juste cette ligne
+        plugins: [emojiPluginAge]
     });
 
 
@@ -576,7 +576,7 @@ window.onload = () => {
                 }
             }
         },
-        plugins: [emojiPluginEducation]  // <- Ajoutez juste cette ligne
+        plugins: [emojiPluginEducation]
     });
 
     // Taux d'activité - Graphique à barres
@@ -613,6 +613,6 @@ window.onload = () => {
                 }
             }
         },
-        plugins: [emojiPluginActivity]  // <- Ajoutez juste cette ligne
+        plugins: [emojiPluginActivity]
     });
 };
