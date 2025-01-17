@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphiques Données éducation & emploi en Corse</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+</head>
+<body>
+        <div>
+           <div class="wave"></div>
+           <div class="wave"></div>
+           <div class="wave"></div>
+        </div>
+    <div class="container">
+        <h1> Comparatif éducation & emploi en Corse entre 2009-2020</h1>
+
+        <div class="chart-container population">
+            <canvas id="populationChart"></canvas>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-col">
+              <div class="chart-container">
+                <canvas id="ageChart2009"></canvas>
+              </div>
+            </div>
+            <div class="chart-col">
+              <div class="chart-container">
+                <canvas id="ageChart2020"></canvas>
+              </div>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-col">
+                <div class="chart-container">
+                    <canvas id="employmentChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-row">
+            <div class="chart-col">
+                <div class="chart-container">
+                    <canvas id="educationChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-col">
+                <div class="chart-container">
+                    <canvas id="activityRateChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
